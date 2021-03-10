@@ -1,0 +1,38 @@
+.card1 {
+  margin: auto;
+  width: 500px;
+  /* height: 500px; */
+  border-radius: 5px;
+
+  -webkit-box-shadow: 0px 13px 54px -26px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 13px 54px -26px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 13px 54px -26px rgba(0, 0, 0, 0.75);
+}
+
+#datePicker1,
+#datePicker2 {
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+}
+@media only screen and (max-width: 500px) {
+  .card1 {
+    width: 400px;
+  }
+}
+.logotxt {
+  font-size: 30px;
+  font-weight: 700;
+}
+.searchBtn {
+  width: 100%;
+  margin-top: 15px;
+  background-color: #17202a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  transition: 1s;
+}
+.searchBtn:hover {
+  background-color: #212f3d;
+}
